@@ -21,7 +21,7 @@ This optional environment variable can be used to set JVM options.
 
 Example usage:
 </br>
-```docker run -p 8000:8000 -e JAVA_OPTS='-Dcom.sun.net.ssl.checkRevocation=true' poldepaor/dynamodb-local-configurable:latest```
+```docker run -p 8000:8000 -e JAVA_OPTS='-Dcom.sun.net.ssl.checkRevocation=false' poldepaor/dynamodb-local-configurable:latest```
 </br>
 #### DYNAMODB_PORT
 
